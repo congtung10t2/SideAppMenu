@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		043F3EBA245FF1CD00239CB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F3EB9245FF1CD00239CB2 /* AppDelegate.swift */; };
 		043F3EBC245FF1CD00239CB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F3EBB245FF1CD00239CB2 /* SceneDelegate.swift */; };
-		043F3EBE245FF1CD00239CB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F3EBD245FF1CD00239CB2 /* ViewController.swift */; };
+		043F3EBE245FF1CD00239CB2 /* ContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F3EBD245FF1CD00239CB2 /* ContainerController.swift */; };
 		043F3EC1245FF1CD00239CB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043F3EBF245FF1CD00239CB2 /* Main.storyboard */; };
 		043F3EC3245FF1CE00239CB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043F3EC2245FF1CE00239CB2 /* Assets.xcassets */; };
 		043F3EC6245FF1CE00239CB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043F3EC4245FF1CE00239CB2 /* LaunchScreen.storyboard */; };
 		043F3ED1245FF1CE00239CB2 /* SideMenuAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F3ED0245FF1CE00239CB2 /* SideMenuAppTests.swift */; };
 		043F3EDC245FF1CE00239CB2 /* SideMenuAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F3EDB245FF1CE00239CB2 /* SideMenuAppUITests.swift */; };
+		043F3EEB245FF29A00239CB2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F3EEA245FF29A00239CB2 /* HomeViewController.swift */; };
+		043F3EEE245FF71900239CB2 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F3EED245FF71900239CB2 /* Protocols.swift */; };
+		043F3EF0245FF79700239CB2 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F3EEF245FF79700239CB2 /* MenuController.swift */; };
+		043F3EF3245FFC9200239CB2 /* MenuOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F3EF2245FFC9200239CB2 /* MenuOptionCell.swift */; };
+		043F3EF6245FFE6100239CB2 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F3EF5245FFE6100239CB2 /* UIView+Extension.swift */; };
+		043F3EF92460019400239CB2 /* MenuOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F3EF82460019400239CB2 /* MenuOption.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +44,7 @@
 		043F3EB6245FF1CD00239CB2 /* SideMenuApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideMenuApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		043F3EB9245FF1CD00239CB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		043F3EBB245FF1CD00239CB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		043F3EBD245FF1CD00239CB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		043F3EBD245FF1CD00239CB2 /* ContainerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerController.swift; sourceTree = "<group>"; };
 		043F3EC0245FF1CD00239CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		043F3EC2245FF1CE00239CB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		043F3EC5245FF1CE00239CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		043F3ED7245FF1CE00239CB2 /* SideMenuAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SideMenuAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		043F3EDB245FF1CE00239CB2 /* SideMenuAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuAppUITests.swift; sourceTree = "<group>"; };
 		043F3EDD245FF1CE00239CB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043F3EEA245FF29A00239CB2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		043F3EED245FF71900239CB2 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		043F3EEF245FF79700239CB2 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		043F3EF2245FFC9200239CB2 /* MenuOptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOptionCell.swift; sourceTree = "<group>"; };
+		043F3EF5245FFE6100239CB2 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		043F3EF82460019400239CB2 /* MenuOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOption.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +111,13 @@
 		043F3EB8245FF1CD00239CB2 /* SideMenuApp */ = {
 			isa = PBXGroup;
 			children = (
+				043F3EF72460017E00239CB2 /* Models */,
+				043F3EF4245FFE4900239CB2 /* Extensions */,
+				043F3EF1245FFC7F00239CB2 /* Views */,
+				043F3EEC245FF70700239CB2 /* Protocols */,
+				043F3EE9245FF1D700239CB2 /* Controllers */,
 				043F3EB9245FF1CD00239CB2 /* AppDelegate.swift */,
 				043F3EBB245FF1CD00239CB2 /* SceneDelegate.swift */,
-				043F3EBD245FF1CD00239CB2 /* ViewController.swift */,
 				043F3EBF245FF1CD00239CB2 /* Main.storyboard */,
 				043F3EC2245FF1CE00239CB2 /* Assets.xcassets */,
 				043F3EC4245FF1CE00239CB2 /* LaunchScreen.storyboard */,
@@ -126,6 +142,48 @@
 				043F3EDD245FF1CE00239CB2 /* Info.plist */,
 			);
 			path = SideMenuAppUITests;
+			sourceTree = "<group>";
+		};
+		043F3EE9245FF1D700239CB2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				043F3EBD245FF1CD00239CB2 /* ContainerController.swift */,
+				043F3EEA245FF29A00239CB2 /* HomeViewController.swift */,
+				043F3EEF245FF79700239CB2 /* MenuController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		043F3EEC245FF70700239CB2 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				043F3EED245FF71900239CB2 /* Protocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		043F3EF1245FFC7F00239CB2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				043F3EF2245FFC9200239CB2 /* MenuOptionCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		043F3EF4245FFE4900239CB2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				043F3EF5245FFE6100239CB2 /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		043F3EF72460017E00239CB2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				043F3EF82460019400239CB2 /* MenuOption.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +317,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				043F3EBE245FF1CD00239CB2 /* ViewController.swift in Sources */,
+				043F3EF3245FFC9200239CB2 /* MenuOptionCell.swift in Sources */,
+				043F3EEE245FF71900239CB2 /* Protocols.swift in Sources */,
+				043F3EF6245FFE6100239CB2 /* UIView+Extension.swift in Sources */,
+				043F3EBE245FF1CD00239CB2 /* ContainerController.swift in Sources */,
+				043F3EF92460019400239CB2 /* MenuOption.swift in Sources */,
 				043F3EBA245FF1CD00239CB2 /* AppDelegate.swift in Sources */,
 				043F3EBC245FF1CD00239CB2 /* SceneDelegate.swift in Sources */,
+				043F3EF0245FF79700239CB2 /* MenuController.swift in Sources */,
+				043F3EEB245FF29A00239CB2 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
